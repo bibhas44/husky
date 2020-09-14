@@ -1,0 +1,84 @@
+.hi-1st{
+    text-align: center; 
+    font-size: 35px;
+}
+.under-constraction{
+    text-align: center; 
+    font-size: 20px;
+    display: none;
+}
+.img-full-width{
+    width: 100%;
+}
+.center-div{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+} 
+.center-div01{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    transform: translate(0%, 0%);
+    text-align: center;
+ } 
+
+#animated_div {
+    width:300px;
+    height:50px;
+    background: #92B901;
+    color: #ffffff;
+    position: fixed;
+    font-weight:bold;
+    font-size:22px;
+    padding:7px;
+    animation:animated_div 5s 1;
+    -moz-animation:animated_div 5s 1;
+    -webkit-animation:animated_div 5s 1;
+    -o-animation:animated_div 5s 1;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+@keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50% {transform: rotate(0deg);left:500px;}
+55% {transform: rotate(0deg);left:500px;}
+70% {transform: rotate(0deg);left:500px;background:#1ec7e6;}
+100% {transform: rotate(-360deg);left:0px;}
+}
+
+@-webkit-keyframes animated_div
+{
+0% {-webkit-transform: rotate(0deg);left:0px;}
+25% {-webkit-transform: rotate(20deg);left:0px;}
+50% {-webkit-transform: rotate(0deg);left:500px;}
+55% {-webkit-transform: rotate(0deg);left:500px;}
+70% {-webkit-transform: rotate(0deg);left:500px;background:#1ec7e6;}
+100% {-webkit-transform: rotate(-360deg);left:0px;}
+}
+
+@-moz-keyframes animated_div
+{
+0%  {-moz-transform: rotate(0deg);left:0px;}
+25% {-moz-transform: rotate(20deg);left:0px;}
+50%  {-moz-transform: rotate(0deg);left:500px;}
+55%  {-moz-transform: rotate(0deg);left:500px;}
+70%  {-moz-transform: rotate(0deg);left:500px;background:#1ec7e6;}
+100% {-moz-transform: rotate(-360deg);left:0px;}
+}
+
+@-o-keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50%  {transform: rotate(0deg);left:500px;}
+55%  {transform: rotate(0deg);left:500px;}
+70%  {transform: rotate(0deg);left:500px;background:#1ec7e6;}
+100% {transform: rotate(-360deg);left:0px;}
+}
