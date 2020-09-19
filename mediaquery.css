@@ -1,21 +1,25 @@
 @media only screen and (max-width: 600px) {
-  
-*{
+
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-body {
+  }
+
+  body {
     background-color: lightblue;
   }
-  header{
+
+  header {
     display: none !important;
   }
-  .sticky{
+
+  .sticky {
     display: none !important;
   }
-  .display-block{
+
+  .display-block {
     display: block !important;
   }
 }
